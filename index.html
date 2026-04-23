@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática 2 - Página Pessoal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .btn-container {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .btn {
+            padding: 15px 30px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+        }
+        .btn-bootstrap { background-color: #712cf9; } /* Roxo do Bootstrap */
+        .btn-tailwind { background-color: #0ea5e9; } /* Azul do Tailwind */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Atividade Prática 2</h1>
+        <p>Desenvolvimento de Página Pessoal com Múltiplos Frameworks</p>
+        
+        <div class="btn-container">
+            <a href="bootstrap/index.html" class="btn btn-bootstrap">Acessar Versão Bootstrap</a>
+            <a href="tailwind/index.html" class="btn btn-tailwind">Acessar Versão Tailwind</a>
+        </div>
+    </div>
+
+</body>
+</html>

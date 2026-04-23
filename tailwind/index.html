@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel - Portfólio Pessoal (Tailwind)</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {}
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900 transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100">
+
+    <nav class="bg-white shadow-sm dark:bg-gray-800 transition-colors duration-300">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-900 dark:text-gray-100">Miguel.dev</a>
+            <button id="theme-toggle" class="px-4 py-2 text-sm font-medium border border-gray-300 rounded-md hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-700 transition">
+                Alternar Tema 🌓
+            </button>
+        </div>
+    </nav>
+
+    <header class="py-20 text-center bg-gray-200 dark:bg-gray-800 transition-colors duration-300">
+        <div class="max-w-4xl mx-auto px-4">
+            <h1 class="text-5xl font-extrabold mb-4">Olá, eu sou o Miguel</h1>
+            <p class="text-xl text-gray-600 dark:text-gray-300">Desenvolvedor de Software Full-Stack | Zetta Lab</p>
+        </div>
+    </header>
+
+    <section class="py-16 max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-300">
+                <h2 class="text-2xl font-bold mb-4">Sobre Mim</h2>
+                <p class="mb-4 text-gray-700 dark:text-gray-300">
+                    Sou estudante na Universidade Federal de Lavras (UFLA) e atuo como desenvolvedor no grupo de pesquisa e desenvolvimento Zetta Lab.
+                </p>
+                <p class="text-gray-700 dark:text-gray-300">
+                    Atualmente, sou o desenvolvedor de software líder de uma squad focada no front-end e também atuo como desenvolvedor bolsista no projeto Sisfogo, em parceria com o Ibama.
+                </p>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 transition-colors duration-300">
+                <h2 class="text-2xl font-bold mb-4">Stack Tecnológica & Certificações</h2>
+                <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                    <li class="py-3 text-gray-700 dark:text-gray-300">
+                        <strong class="text-gray-900 dark:text-gray-100">Linguagens & Frameworks:</strong> Java (Spring Boot), Angular, Node.js
+                    </li>
+                    <li class="py-3 text-gray-700 dark:text-gray-300">
+                        <strong class="text-gray-900 dark:text-gray-100">Certificação:</strong> AWS Academy Graduate - Cloud Foundations
+                    </li>
+                    <li class="py-3 text-gray-700 dark:text-gray-300">
+                        <strong class="text-gray-900 dark:text-gray-100">Certificação:</strong> Green Belt Six Sigma
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center bg-gray-200 dark:bg-gray-800 transition-colors duration-300">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="text-xl font-bold mb-4">Contato</h3>
+            <p class="mb-6 text-gray-600 dark:text-gray-300">Conecte-se comigo para conversarmos sobre tecnologia e desenvolvimento.</p>
+            <div class="flex justify-center gap-4">
+                <a href="https://www.linkedin.com/in/miguel-chagas-figueiredo-08a228263/" target="_blank" rel="noopener noreferrer" class="px-6 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/MiguelChagas" target="_blank" rel="noopener noreferrer" class="px-6 py-2 bg-gray-900 text-white font-semibold rounded hover:bg-black dark:bg-gray-700 dark:hover:bg-gray-600 transition">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

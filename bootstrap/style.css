@@ -2,7 +2,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.custom-card, .navbar-custom, .footer-custom, .custom-list .list-group-item {
+.custom-card, .navbar-custom, .footer-custom, .custom-list .list-group-item, .navbar-brand {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -60,4 +60,8 @@ body.dark-theme .btn-outline-secondary {
 
 body.dark-theme .btn-outline-secondary:hover {
     background-color: #555;
+}
+
+body.dark-theme .navbar-brand {
+    color: #e0e0e0 !important;
 }

@@ -1,0 +1,63 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-card, .navbar-custom, .footer-custom, .custom-list .list-group-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-theme {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+body.light-theme .navbar-custom {
+    background-color: #ffffff;
+}
+
+body.light-theme .custom-card, 
+body.light-theme .custom-list .list-group-item {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+body.light-theme .hero-section {
+    background-color: #e9ecef;
+}
+
+body.light-theme .footer-custom {
+    background-color: #e9ecef;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-theme .navbar-custom {
+    background-color: #1e1e1e;
+}
+
+body.dark-theme .custom-card,
+body.dark-theme .custom-list .list-group-item {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #333;
+}
+
+body.dark-theme .hero-section {
+    background-color: #1a1a1a;
+}
+
+body.dark-theme .footer-custom {
+    background-color: #1a1a1a;
+}
+
+body.dark-theme .btn-outline-secondary {
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+body.dark-theme .btn-outline-secondary:hover {
+    background-color: #555;
+}
